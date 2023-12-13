@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EmpAjax_UsingRepo.props" />
+</Project>
