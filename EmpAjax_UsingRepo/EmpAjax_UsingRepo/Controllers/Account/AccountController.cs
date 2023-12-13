@@ -78,13 +78,13 @@ namespace EmpAjax_UsingRepo.Controllers.Account
                     }
                     else
                     {
-                        TempData["errorPassword"] = " Invalid password";
+                        TempData["errorPassword"] = " Invalid password ,Please Re-Enter password";
                         return View(model);
                     }
                 }
                 else
                 {
-                    TempData["errorUsername"] = "Invalid Username ";
+                    TempData["errorUsername"] = "Invalid Username,Please Re-Enter Username ";
                     return View( model);
                 }
             }
